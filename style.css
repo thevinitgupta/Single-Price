@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Karla', sans-serif;
+}
+.front {
+    height: 40rem;
+    width: 50rem;
+    background-color: white;
+    margin: 3rem auto 4rem auto;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 8px 7px 12px  hsl(204, 43%, 93%);
+    align-items: center;
+}
+.top-cont {
+    height: 14rem;
+    padding: 5% 7%;
+}
+.top-head {
+    color: hsl(179, 62%, 43%);
+    font-size: 2rem;
+    /* line-height: 1.5; */
+}
+.top-head-2 {
+    /* line-height: 1.5; */
+    color: hsl(71, 73%, 54%);
+    font-size: 1.8rem;
+}
+.top-para {
+    color: hsl(218, 22%, 67%);
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.bottom-cont {
+    padding: 0;
+    margin: 0;
+    height: 21rem;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+}
+.bottom-left {
+    display: inline-block;
+    width: 18rem;
+    height: 21rem;
+    align-items: center;
+    padding-left: 4.5rem;
+    padding-right: 3.5rem;
+    background-color: hsl(179, 56%, 32%) ;
+    position: relative;
+    bottom: 1.9rem;
+    border-bottom-left-radius: 15px;
+}
+.left-head {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    position: relative;
+    top: 2rem;;
+}
+.left-para {
+    line-height: 1.5;
+    position: relative;
+    top: 1rem;
+    color: #ffffffc5;
+}
+.dollar {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.sign-btn {
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    height: 3.3rem;
+    width: 15rem;
+    border-radius: 0.3rem;
+    position: relative;
+    top: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: 2px 0px 8px hsl(210, 1%, 32%);
+}
+.bottom-right {
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    padding-left: 3%;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+}
+p {
+    line-height: 0.5;
+}
+@media only screen and  (max-width:880px){
+    .front {
+        height: 30rem;
+        width: 40rem;
+    }
+    .top-cont {
+        height: 10rem;
+        padding: 5% 7%;
+    }
+    .top-head {
+        color: hsl(179, 62%, 43%);
+        font-size: 1.5rem;
+        /* line-height: 1.5; */
+    }
+    .top-head-2 {
+        /* line-height: 1.5; */
+        color: hsl(71, 73%, 54%);
+        font-size: 1.2rem;
+    }
+    .top-para {
+        color: hsl(218, 22%, 67%);
+        font-size: 1rem;
+    }
+    .bottom-cont {
+        height: 16rem;
+    }
+    .bottom-left {
+        width: 16rem;
+        height: 14.39rem;
+        position: relative;
+        bottom: 1.05rem;
+        padding: 2% 3% 2% 8%;
+    }
+    .left-head {
+        position: relative;
+        top: 0;
+    }
+    .left-para {
+        position: relative;
+        top: -1.2rem;
+    }
+    .dollar {
+        position: relative;
+        top: 0.5rem;
+    }
+    .sign-btn {
+        position: static;
+    }
+    .bottom-right {
+        display: inline-block;
+        width: 15rem;
+        height: 5rem;
+        padding-left: 1%;
+        align-items: center;
+        position: relative;
+        top: 0.6rem;
+        left: 3rem;
+    }  
+} 
+@media only screen and  (max-width:450px){
+    .front {
+        height: 50rem;
+        width: 22rem;
+    }
+    .top-cont {
+        height: 10rem;
+        padding: 5% 7%;
+    }
+    .top-head {
+        color: hsl(179, 62%, 43%);
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    .top-head-2 {
+        line-height: 1.5;
+        color: hsl(71, 73%, 54%);
+        font-size: 1.2rem;
+    }
+    .top-para {
+        color: hsl(218, 22%, 67%);
+        font-size: 1rem;
+        line-height: 2;
+    }
+    .bottom-cont {
+        height: 28.8rem;
+        position: relative;
+        top: 9rem;
+    }
+    .bottom-left {
+        width: 19.6rem;
+        height: 14.39rem;
+        position: relative;
+        bottom: 1.05rem;
+        padding: 2% 3% 2% 8%;
+        border-bottom-left-radius: 0;
+    }
+    .bottom-right {
+        display: inline-block;
+        width: 15rem;
+        height: 5rem;
+        padding-left: 1%;
+        align-items: center;
+        position: relative;
+        top: -1.5rem;
+        left: 3rem;
+    }  
+}
