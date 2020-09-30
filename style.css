@@ -23,6 +23,7 @@ body {
 .top-head {
     color: hsl(179, 62%, 43%);
     font-size: 2rem;
+    /* height: 7rem; */
     /* line-height: 1.5; */
 }
 .top-head-2 {
